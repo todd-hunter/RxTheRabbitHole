@@ -13,11 +13,9 @@ Watching the tube/train arrive that evening and it was out of service, again... 
 - The tunnel is the outer observable and the trains ride along, and they are observable streams as well.
 - A train/stream yielding OK is treated as the infinite inner observable (zero, many, or an infinite number of people getting out)
 - An out-of-service train(stream yields error)is also just another broken tube train, get off it and wait for the next one.
-- I never found this one easy... And the code is, sadly, still way to complicated. 
-  https://github.com/todd-hunter/RxTheRabbitHole/blob/master/RxInWonderland/Rx.Experimental/BackoffExtensions.cs
 
-   *** I'd suggest just sticking with .Retry(1) and keeping life easy. ***
+I never found this one easy... And the code is, sadly, still way too complicated: 
+[The Code](https://github.com/todd-hunter/RxTheRabbitHole/blob/master/RxInWonderland/Rx.Experimental/BackoffExtensions.cs "link to code")
 
-
-
-
+***I'd suggest just sticking with .Retry(1) and keeping life easy***
+Todd
