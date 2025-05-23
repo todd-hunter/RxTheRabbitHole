@@ -3,7 +3,7 @@
 ## This Repository contains RX I am experimenting with and/or RX code I want to share (probably with myself!). ###
 2018-ish
 
-### Back of Retry 
+### Back off Retry 
 This code is 'Experimental' for a reason, please beware of inner-dragons.
 I was trying to highlight the difficulty with 'Back Off Retry' in an RX discussion where previous solutions I'd seen used recursion and had blown stack issues.
 #### Trains
