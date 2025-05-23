@@ -18,4 +18,3 @@ I never found this one easy... And the code is, sadly, still way too complicated
 [The Code](https://github.com/todd-hunter/RxTheRabbitHole/blob/master/RxInWonderland/Rx.Experimental/BackoffExtensions.cs "link to code")
 
 ***I'd suggest just sticking with .Retry(1) and keeping life easy***
-Todd
